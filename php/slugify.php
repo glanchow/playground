@@ -41,9 +41,10 @@ function unaccent($string)
 }
 
 /**
- * Générateur de Slug (Friendly Url) : convertit un titre en une URL conviviale.
- * @param string $str La chaine à convertir
- * @return string La chaine convertit
+ * Generate a slug from a string.
+ *
+ * @param string $string The string to slugify.
+ * @return string The slug.
  */
 function slugify($string)
 {
